@@ -1,0 +1,264 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>SenAgricol</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="..."  width="100" height="70">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nos Produits
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#fruits">Fruits</a></li>
+                      <li><a class="dropdown-item" href="#legumes">Légumes</a></li>
+                      <li><hr class="dropdown-divider"><a class="dropdown-item" href="#cereales">Céréales </a> </li>
+                      <li><a class="dropdown-item" href="#"> Transformation </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#team" tabindex="-1" aria-disabled="false"> A propos de Nous</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <!-- Starting  Caroussel -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/images/pexels-alejandro-barrón-96715.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/mut7272365078555917763.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/seeds_to_riches_baber.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--End Caroussel -->
+      <div class="container pt-5 pl-2">
+        <div class="row align-items-start">
+          <div id="fruits" class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/fruits.jpg" class="card-img-top" alt="fruits">
+              <div  class="card-body">
+                <h5 class="card-title"> Nos Fruits</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Consulter</a>
+              </div>
+            </div>
+          </div>
+          <div id="legumes" class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/images/legumes.jpg" class="card-img-top" alt="legumes">
+              <div class="card-body">
+                <h5 class="card-title">Nos Légumes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Consulter</a>
+              </div>
+            </div>
+          </div>
+          <div id="cereales" class="col-sm-3">
+            <div class="card" style="width: 18.5rem;">
+              <img src="assets/images/cereale.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Céréales </h5>
+                <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary"> Consulter </a>
+              </div>
+            </div>
+          </div>
+          <div id="transformation" class="col-sm-2">
+            <div class="card" style="width: 17.6rem;">
+              <img src="assets/images/transform.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Nos Transformations </h5>
+                <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content. </p>
+                <a href="#" class="btn btn-primary"> Consulter </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Apropos de nous -->    
+<div id="team" class="about-section">
+  <h1>A propos de Nous </h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center"> La Dream Team  </h2>
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <img src="assets/images/marieme.jpg" alt="khadija" style="width:100%">
+      <div class="container">
+        <h2> Khadidiatou </h2>
+        <p class="title">CEO & Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>khadija@seneagricol.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ">
+      <img src="assets/images/bayal.jpg" alt="bayal" style="width:100%">
+      <div class="container">
+        <h2> Mouhamed Guisse </h2>
+        <p class="title"> CEO & Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mohamed@seneagricol.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- Fin Apropos de nous -->
+    </main>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span></span>
+    </div>
+    <!-- Left -->
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i> Sen-Agro
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Nos Produits
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Fruits</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Légumes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Céréales</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Transformation</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Liens Utiles
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Nos Prix </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"> Classifications </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Commandes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"> A vos Services </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">seneagricol.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
