@@ -43,14 +43,14 @@ body {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #126b20;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: #3fbf52;
   }
   
   @media screen and (max-width: 650px) {
